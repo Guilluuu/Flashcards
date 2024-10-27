@@ -1,0 +1,31 @@
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
+¿Qué diferencias principales existen entre TCP y UDP?|TCP proporciona transmisión fiable mediante confirmaciones y numeración, mientras que UDP envía datos sin confirmación ni control de errores.|4
+¿Qué es la multiplexión en la capa de transporte?|Es el proceso por el cual la capa de transporte gestiona múltiples conexiones, asignando segmentos a los procesos correctos mediante puertos.|4
+¿Qué información contiene la cabecera de UDP?|Puertos de origen y destino, longitud total del segmento y una suma de comprobación.|4
+¿Para qué tipo de aplicaciones es ideal UDP?|Para aplicaciones que priorizan velocidad sobre fiabilidad, como streaming de video y transmisión de audio.|4
+¿En qué consiste el protocolo ARQ "Parar y Esperar"?|El emisor envía un paquete y espera un reconocimiento antes de enviar el siguiente.|4
+¿Qué ventajas presenta el protocolo ARQ con ventana deslizante?|Permite enviar múltiples paquetes sin esperar un reconocimiento por cada uno, mejorando el uso del canal.|4
+¿Cómo gestiona TCP la numeración de segmentos?|Cada segmento se numera incrementando según los bytes enviados, partiendo de un número aleatorio.|4
+¿Qué es la técnica de superposición en TCP?|TCP combina ACKs con datos en un mismo segmento, ahorrando recursos y mejorando eficiencia.|4
+¿Qué es un temporizador en TCP y para qué se utiliza?|Controla el tiempo de espera para recibir un ACK; si se vence, TCP retransmite el segmento.|4
+¿Cómo se establece una conexión TCP?|Mediante un proceso de tres pasos: solicitud de conexión, aceptación y confirmación.|4
+¿En qué consiste el control de flujo en TCP?|Ajusta la velocidad de transmisión según la capacidad del receptor, evitando sobrecargarlo.|4
+¿Qué es la ventana de congestión en TCP?|Un mecanismo que ajusta la cantidad de datos enviados para evitar congestión en la red.|4
+¿Qué hace TCP en caso de recibir tres ACKs repetidos?|Realiza una retransmisión rápida, considerando que se ha perdido un paquete.|4
+¿Por qué TCP es considerado un protocolo justo?|Porque ajusta su tasa de transmisión en función de la congestión y comparte el ancho de banda equitativamente.|4
+¿Qué es la suma de comprobación en UDP?|Es un mecanismo para detectar errores en los datos transmitidos, mediante una suma de los datos del segmento más un complemento a uno.|4
+¿Cuáles son los pasos para calcular la suma de comprobación en UDP?|El emisor divide los datos en palabras de 16 bits, las suma, suma cualquier acarreo y obtiene el complemento a uno de la suma final.|4
+¿Cómo verifica el receptor la suma de comprobación en UDP?|Realiza la misma operación de suma y verifica si el resultado es 1111 (en binario), lo cual indica que los datos llegaron sin errores.|4
+¿Qué es el mecanismo de control de congestión "Inicio Lento" en TCP?|Una fase en que la ventana de congestión aumenta exponencialmente hasta que se detecta congestión.|4
+¿Cómo funciona el incremento aditivo/decremento multiplicativo (AIMD) en TCP?|Incrementa la ventana de congestión de manera lineal y reduce la ventana a la mitad si detecta congestión.|4
+¿Qué es la recuperación rápida en TCP y cuándo se usa?|TCP realiza una retransmisión rápida sin pasar por inicio lento al recibir tres ACKs duplicados, para evitar una reducción de velocidad abrupta.|4
+¿Qué es la notificación explícita de congestión (ECN)?|Una técnica en la que los routers marcan paquetes congestionados para advertir al receptor y que este ajuste su tasa de transmisión sin esperar pérdida de paquetes.|4
+Si utilizamos ARQ Parar y Esperar, ¿cómo se calcula la utilización del enlace?|La utilización se calcula como el tiempo de transmisión dividido entre el RTT más el tiempo de transmisión.|4
+¿Cuál es la fórmula para calcular el tamaño de la ventana para lograr una utilización de 1 con ventana deslizante?|La ventana se calcula dividiendo el RTT por el tiempo de transmisión de cada paquete.|4
+¿Cómo cambia la utilización del enlace cuando disminuye la velocidad de transmisión?|Al reducirse la velocidad de transmisión, el tiempo de transmisión aumenta, y la utilización del enlace puede disminuir si no se ajusta la ventana.|4
+¿Cuál es el tiempo de vida máximo de un segmento (MSL) y cómo afecta el tamaño de los números de secuencia?|MSL es el tiempo que un segmento puede estar en tránsito; determina el rango de números de secuencia necesarios para evitar superposición.|4
+¿Por qué es necesario un número mínimo de bits para el campo de Número de Secuencia (SN) en el diseño de un protocolo TCP con ventana deslizante?|Para asegurar que los números de secuencia no se solapen durante la vida útil de los segmentos.|4
+¿Cómo se determina el tamaño del campo de la Ventana Otorgada (AW) en una red con ventana deslizante?|Basándose en el ancho de banda y el RTT para garantizar que haya suficiente espacio en el campo de la ventana para abarcar todos los segmentos en tránsito.|4
+¿Qué ocurre en el receptor si la suma de comprobación de UDP no coincide?|El paquete se descarta o se marca como corrupto, y el receptor puede solicitar una retransmisión según el protocolo superior.|4
+¿Cuándo se utiliza la retransmisión rápida en TCP y qué ventaja tiene frente a los métodos tradicionales?|Cuando se reciben tres ACKs duplicados, permitiendo que TCP recupere el paquete perdido sin una interrupción brusca en la transmisión.|4
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
