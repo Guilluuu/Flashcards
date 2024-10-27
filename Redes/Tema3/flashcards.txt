@@ -30,3 +30,4 @@ Si utilizamos ARQ Parar y Esperar, ¿cómo se calcula la utilización del enlace
 ¿Cuándo se utiliza la retransmisión rápida en TCP y qué ventaja tiene frente a los métodos tradicionales?|Cuando se reciben tres ACKs duplicados, permitiendo que TCP recupere el paquete perdido sin una interrupción brusca en la transmisión.|4
 ¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
 ¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
