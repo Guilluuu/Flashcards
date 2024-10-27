@@ -104,6 +104,8 @@ def delete_flashcard(deck):
 
 def display_decks(base_path, level=0):
     for item in os.listdir(base_path):
+        if item == '.git':  # Ignorar la carpeta .git
+            continue
         path = os.path.join(base_path, item)
         if os.path.isdir(path):
             print("  " * level + f"📁 {item}")
