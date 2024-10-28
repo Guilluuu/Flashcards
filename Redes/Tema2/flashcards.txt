@@ -1,0 +1,30 @@
+¿Qué capa se encarga de la comunicación entre procesos? | Capa de aplicación | 4
+¿Qué es un protocolo de comunicación? | Conjunto de reglas que permiten que dos procesos se comuniquen y comprendan los mensajes intercambiados | 4
+¿Qué protocolo se usa para la web? | HTTP | 4
+¿Cuál es el propósito del protocolo FTP? | Facilitar la transferencia de archivos | 4
+¿Qué significa HTTP? | Protocolo de Transferencia de Hipertexto | 4
+¿Cuántos tipos de conexión existen en HTTP? | Dos: no persistentes y persistentes | 4
+¿Para qué se usa el puerto 80 en HTTP? | Para la transmisión de datos web | 4
+¿Cuál es la diferencia entre conexión persistente y no persistente? | La persistente reutiliza la conexión TCP para múltiples transferencias; la no persistente crea una conexión nueva por cada transferencia | 4
+¿Qué significa FTP? | Protocolo de Transferencia de Ficheros | 4
+¿Qué puerto usa FTP para el control? | El puerto 21 | 4
+¿Qué puerto usa FTP para la transferencia de datos? | El puerto 20 | 4
+¿Cuál es el propósito de SMTP? | Enviar correos electrónicos | 4
+¿Qué puertos utilizan los protocolos de correo? | SMTP usa el puerto 25, POP3 usa el puerto 110 | 4
+¿Qué protocolo usa DNS para la transmisión de datos? | UDP | 4
+¿Qué propósito tiene DNS? | Traducir nombres de dominio a direcciones IP | 4
+¿Qué tipo de servidores existen en DNS? | Servidores locales, autorizados, raíz, y servidores intermedios | 4
+¿Qué función tiene un servidor proxy? | Almacenar en caché las solicitudes web para mejorar el rendimiento | 4
+¿Qué significa CDN? | Red de Distribución de Contenidos | 4
+¿Cuál es la ventaja de una red P2P? | Los usuarios son tanto servidores como clientes, compartiendo recursos | 4
+¿Cuál es un ejemplo de red P2P con directorio centralizado? | Napster | 4
+¿Cómo se denomina una consulta DNS en la que un servidor realiza múltiples peticiones? | Consulta recursiva | 4
+¿Qué es un registro de recurso en DNS? | Una estructura que almacena información sobre el nombre, valor y TTL de un recurso | 4
+¿Qué técnica permite la descarga eficiente de archivos grandes en redes P2P? | Descarga por segmentos | 4
+¿Qué protocolo permite transferir correos a través de varios servidores? | SMTP | 4
+¿Cuáles son los tres mensajes básicos en el protocolo SMTP? | Comandos, respuestas y datos | 4
+¿Qué protocolo utiliza el correo electrónico en la interfaz de usuario? | POP3 o IMAP | 4
+¿Qué significa TTL en DNS? | Time to Live, el tiempo de validez de una respuesta | 4
+¿Cómo mejora HTTP/1.1 la eficiencia de la transferencia de objetos? | Permite conexiones persistentes con entubamiento | 4
+¿Cuál es la principal limitación del FTP en términos de seguridad? | Transmite datos sin cifrar | 4
+¿Cuál es la diferencia entre una consulta recursiva y una iterativa en DNS? | La recursiva delega todas las consultas a los servidores; la iterativa las realiza el cliente | 4

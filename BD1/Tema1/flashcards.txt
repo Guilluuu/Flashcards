@@ -1,0 +1,47 @@
+¿Qué es el diseño conceptual en el contexto de bases de datos? | Modelado de alto nivel independiente de cualquier modelo implementable en un sistema informático | 4
+¿Qué es un modelo entidad-relación? | Esquema conceptual que especifica las entidades que se representan en la base de datos, sus atributos, relaciones entre ellas y las restricciones que las afectan | 4
+¿Qué es el diseño lógico en bases de datos? | Transformación del modelo de alto nivel a un modelo concreto implementable en un sistema informático | 4
+¿Qué es el diseño físico en bases de datos? | Manejo de un software de gestión de bases de datos concreto | 4
+¿Cuáles son los dos errores a evitar en el diseño de bases de datos? | Redundancia (fallo típico y grave) e incompletitud | 4
+¿Qué se entiende por transacción en una base de datos? | Descripción de una operación a realizar sobre los datos de esa Base de Datos | 4
+¿Qué se especifica en los requisitos funcionales de una base de datos? | Los usuarios describen los tipos de operaciones sobre los datos, denominados transacciones | 4
+¿Qué es una entidad en el modelo entidad-relación? | Objeto, de un determinado tipo, identificable de forma unívoca | 4
+¿Qué es un conjunto de entidades? | Grupo de objetos de un tipo, con las mismas propiedades, que se identifican en la Base de Datos como poseedores de una existencia independiente | 4
+¿Cómo se define una relación en bases de datos? | Asociación identificable de forma unívoca que incluye una Entidad de cada uno de los Conjuntos de Entidades participantes | 4
+¿Qué es un rol en el contexto de relaciones? | Función que desempeña una entidad en la relación (son necesarios en los Conjuntos de Relaciones recursivos) | 4
+¿Qué es un conjunto de relaciones? | Grupo de Relaciones entre Entidades de Conjuntos de Entidades | 4
+¿Qué es un conjunto de relaciones en bases de datos? | Grupo de Relaciones entre Entidades de Conjuntos de Entidades | 4
+¿Qué es una relación recursiva? | El mismo conjunto de entidades participa en el mismo conjunto de relaciones más de una vez | 4
+¿Qué es el grado de un conjunto de relaciones? | Número de Conjuntos de Entidades que participan en las Relaciones individuales del Conjunto de Relaciones | 4
+¿Qué es un atributo en el modelo entidad-relación? | Propiedad de un Conjunto de Entidades o de un Conjunto de Relaciones | 4
+¿Qué es un atributo simple? | Atributo que no se divide en otros atributos | 4
+¿Qué es un atributo compuesto? | Atributo que se divide en otros atributos | 4
+¿Qué es un atributo multivalorado? | Atributo que permite varios valores | 4
+¿Qué es un atributo derivado? | Atributo cuyo valor se puede obtener a partir del valor de otros atributos o entidades y no se almacena sino que se calcula cuando hace falta | 4
+¿Qué significa dominio de un atributo? | Conjunto de valores permitido para el Atributo | 4
+¿Para qué sirven las restricciones en una base de datos? | Determinan la semántica precisa de la Base de Datos, es decir, la realidad que representa | 4
+¿Qué es la multiplicidad en un conjunto de relaciones? | Rango (número mínimo y número máximo) de Entidades de un Conjunto de Entidades que pueden relacionarse, mediante un Conjunto de Relaciones, con una Entidad de otro(s) Conjunto(s) de Entidades | 4
+¿Qué es una relación uno a uno en multiplicidad? | Cada entidad de A se asocia como máximo con una entidad de B, y cada entidad de B se asocia como máximo con una entidad de A | 4
+¿Qué es una relación varios a uno en multiplicidad? | Cada entidad de A se asocia como máximo con una entidad de B, y cada entidad de B se asocia como máximo con una entidad de A | 4
+¿Qué es una relación uno a varias en multiplicidad? | Cada entidad de A se asocia con 0 o más entidades de B, y cada entidad de B se asocia con 0 o más entidades de A | 4
+¿Qué es una relación varios a varios en multiplicidad? | Cada entidad de A se asocia con 0 o más entidades de B, y cada entidad de B se asocia con 0 o más entidades de A | 4
+¿Qué se entiende por participación en una relación? | Determina si todas, o solo parte de las Entidades de un Conjunto de Entidades participan en un Conjunto de Relaciones, siendo el mínimo del rango de la Multiplicidad | 4
+¿Qué es la participación total en un conjunto de relaciones? | La participación de un conjunto de entidades E en un conjunto de relaciones R es total si cada entidad de E participa en al menos una relación de R; de lo contrario es parcial | 4
+¿Qué describe la cardinalidad en una relación? | Describe el número máximo de Entidades de un Conjunto de Entidades que pueden relacionarse con una Entidad de otro(s) Conjunto(s) de Entidades a través de un Conjunto de Relaciones | 4
+¿Qué es la correspondencia de cardinalidades? | Cardinalidades correspondientes a los Conjuntos de Entidades participantes en un Conjunto de Relaciones | 4
+¿Qué es una clave candidata en una base de datos? | Conjunto mínimo de atributos que identifican de forma unívoca cada Entidad dentro de un Conjunto de Entidades | 4
+¿Qué es una clave principal o primaria? | Clave candidata seleccionada por el/la diseñador/a; la estructura de las claves primarias depende del conjunto de relaciones de la correspondencia cardinalidad del conjunto de relaciones | 4
+¿Qué es una superclase en un modelo de datos? | Conjunto de Entidades que incluye uno o más subgrupos diferentes en sus Entidades, los cuales es preciso representar en el Modelo de datos | 4
+¿Qué es una subclase en un modelo de datos? | Subgrupo diferenciado de Entidades de un Conjunto de Entidades, que necesita ser representado en el Modelo de datos | 4
+¿Qué es la herencia de atributos en jerarquías? | Las Subclases de una jerarquía poseen los atributos de su Superclase sin necesidad de indicarlo explícitamente | 4
+¿Qué es la restricción de participación en una jerarquía? | Determina si todo miembro de la Superclase debe participar, o no, como miembro de una Subclase | 4
+¿Qué es la restricción de disyunción en una jerarquía? | Indica si es posible que un miembro de una Superclase pueda ser miembro de varias Subclases o solo puede ser miembro de una Subclase | 4
+¿Qué es una agregación en un modelo entidad-relación? | Conjunto de Entidades de nivel conceptual superior compuesto por un Conjunto de Relaciones entre Conjuntos de Entidades | 4
+¿Qué es un conjunto de entidades fuerte? | Conjunto de Entidades que no depende de ningún otro Conjunto de Entidades | 4
+¿Qué es un conjunto de entidades débil? | Conjunto de Entidades que depende existencialmente de otro Conjunto de Entidades | 4
+¿Qué es una superclase en un modelo de datos? | Conjunto de Entidades que incluye uno o más subgrupos diferentes en sus Entidades, los cuales es preciso representar en el Modelo de datos | 4
+¿Qué es una subclase en un modelo de datos? | Subgrupo diferenciado de Entidades de un Conjunto de Entidades, que necesita ser representado en el Modelo de datos | 4
+¿Qué es la herencia de atributos en jerarquías? | Las Subclases de una jerarquía poseen los atributos de su Superclase sin necesidad de indicarlo explícitamente | 4
+¿Qué es la restricción de participación en una jerarquía? | Determina si todo miembro de la Superclase debe participar, o no, como miembro de una Subclase | 4
+¿Qué es la restricción de disyunción en una jerarquía? | Indica si es posible que un miembro de una Superclase pueda ser miembro de varias Subclases o solo puede ser miembro de una Subclase | 4
+¿Qué es una agregación en un modelo entidad-relación? | Conjunto de Entidades de nivel conceptual superior compuesto por un Conjunto de Relaciones entre Conjuntos de Entidades | 4
