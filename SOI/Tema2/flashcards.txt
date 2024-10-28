@@ -1,0 +1,26 @@
+¿Qué es un proceso en el contexto de un sistema operativo? | Un proceso es una instancia de un programa en ejecución con su propio espacio de memoria, incluyendo código, datos, y pila. | 4
+¿Qué diferencia hay entre proceso y programa? | Un programa es un archivo ejecutable en código máquina; un proceso es ese programa en ejecución con recursos asignados. | 4
+¿Qué es el pseudoparalelismo en la ejecución de procesos? | Es la simulación de ejecución simultánea mediante cambios rápidos entre procesos, aunque solo uno se ejecuta por vez en la CPU. | 4
+¿Qué es un cambio de contexto y cuándo ocurre? | Es la sustitución de un proceso en ejecución por otro, guardando el estado del primero y cargando el del segundo, y ocurre cuando un proceso cede la CPU o es interrumpido. | 4
+¿Cuál es el propósito de la tabla de procesos? | Almacena información relevante de todos los procesos activos, como estado, identificador y datos en memoria. | 4
+¿Cómo se crea un proceso en UNIX y cuál es la diferencia entre padre e hijo? | Con la llamada fork(), el proceso hijo es idéntico al padre, pero son independientes; el padre puede ver el PID del hijo, y el hijo recibe 0. | 4
+¿Qué es una señal en sistemas operativos? | Una señal es un aviso que recibe un proceso sobre eventos en el sistema, como interrupciones o notificaciones de errores. | 4
+¿Qué son los hilos y en qué se diferencian de los procesos? | Los hilos son secuencias de ejecución dentro de un proceso; comparten el espacio de direcciones del proceso y son más ligeros que los procesos. | 4
+¿Para qué sirve pthread_create()? | pthread_create() crea un nuevo hilo dentro de un proceso, ejecutando una función específica de forma concurrente con otros hilos. | 4
+¿Qué ventajas tiene el uso de hilos en un sistema operativo? | Permite una ejecución más rápida y eficiente, ya que los hilos comparten el espacio de memoria del proceso y reducen el tiempo en cambios de contexto. | 4
+¿Cómo se diferencian los hilos de usuario de los hilos del kernel? | Los hilos de usuario son gestionados por el espacio de usuario, mientras que los hilos del kernel son gestionados directamente por el sistema operativo, permitiendo una mejor asignación de recursos. | 4
+¿Qué sucede si un hilo ejecuta exit() en lugar de pthread_exit()? | exit() finaliza el proceso entero junto con todos sus hilos, mientras que pthread_exit() termina solo el hilo que la ejecuta. | 4
+¿Cómo se implementan los hilos en el espacio de kernel y en el espacio de usuario? | En el kernel, los hilos están en la tabla de procesos del SO; en el usuario, cada proceso maneja sus propios hilos en su tabla local, sin que el kernel los controle. | 4
+¿Qué es el método pthread_join() y cuándo se utiliza? | pthread_join() permite que un hilo espere a que otro hilo específico termine su ejecución, útil en sincronización de hilos. | 4
+¿Qué es la condición de carrera y cómo afecta a los hilos? | Es una situación en la que varios hilos acceden y modifican datos compartidos de forma concurrente, lo que puede causar resultados inconsistentes. | 4
+¿Qué es un cambio de contexto entre hilos y en qué se diferencia de un cambio entre procesos? | Un cambio entre hilos de un mismo proceso es más rápido porque comparten el mismo espacio de memoria, mientras que el cambio entre procesos requiere guardar y cargar un espacio de memoria distinto. | 4
+¿Qué funciones existen para manejar hilos en C? | pthread_create() para crear hilos, pthread_exit() para finalizar, pthread_join() para esperar, y pthread_yield() para ceder la CPU, entre otras. | 4
+¿Qué es un hilo emergente? | Es un hilo creado en respuesta a un mensaje de red para procesarlo y eliminarse una vez ha cumplido su función. | 4
+¿Cómo puede un proceso enviar una señal a otro proceso? | Un proceso puede enviar una señal a otro usando la función kill(pid, señal), especificando el PID del destinatario y el tipo de señal. | 4
+¿Qué es el comportamiento por defecto de una señal y cómo se puede modificar? | El comportamiento por defecto es la acción automática al recibir la señal; se modifica usando signal o sigaction para definir una función de manejo. | 4
+¿Cuál es la diferencia entre una interrupción y una señal? | Las interrupciones son eventos de hardware que afectan al sistema operativo, mientras que las señales son eventos de software destinados a un proceso específico. | 4
+¿Qué es el sigaction y en qué se diferencia de signal? | sigaction permite una gestión más flexible de las señales al incluir opciones avanzadas, mientras que signal solo permite asignar una función manejadora básica. | 4
+¿Qué sucede si un proceso ignora una señal como SIGTERM? | Si el proceso ignora SIGTERM, no terminará su ejecución; sin embargo, SIGKILL no puede ignorarse y siempre forzará la terminación. | 4
+¿Cómo se pueden bloquear y desbloquear señales en un proceso? | Con sigprocmask() se puede bloquear o desbloquear un conjunto de señales, controlando cuándo se permite que el proceso las reciba. | 4
+¿Qué es una señal de usuario y para qué puede usarse? | Son señales SIGUSR1 y SIGUSR2 disponibles para cualquier propósito definido por el usuario o la aplicación para sincronizar procesos. | 4
+¿Qué papel juega SIGCHLD en la gestión de procesos? | SIGCHLD es una señal que envía un proceso hijo al padre cuando termina, permitiendo al padre manejar la terminación del hijo. | 4
