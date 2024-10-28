@@ -31,3 +31,6 @@ Si utilizamos ARQ Parar y Esperar, ¿cómo se calcula la utilización del enlace
 ¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
 ¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
 ¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
+¿Qué función cumple la capa de transporte en redes?|Gestiona el envío y recepción de mensajes entre aplicaciones de origen y destino a través de un canal no fiable.|4
