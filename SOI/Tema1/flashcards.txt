@@ -11,3 +11,7 @@
 ¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
 ¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
 ¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4

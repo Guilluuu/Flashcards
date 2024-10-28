@@ -62,6 +62,7 @@ def save_deck(deck):
 def quiz(deck):
     while not deck.flashcards.empty():
         flashcard = deck.flashcards.get()
+        os.system('cls' if os.name == 'nt' else 'clear')
 
         print(f"\nPregunta: {flashcard.question}")
         input("Presiona Enter para ver la respuesta...")
@@ -82,7 +83,6 @@ def quiz(deck):
         deck.add_flashcard(flashcard)
 
         stop_study = input("¿Deseas parar el estudio? (s/n): ").strip().lower()
-        os.system('cls' if os.name == 'nt' else 'clear')  # Limpia la terminal
         if stop_study == 's':
             break
 
@@ -127,16 +127,21 @@ def delete_deck(deck_path):
 
 def navigate_decks(base_path):
     while True:
-        print("\n--- Estructura de Mazos ---")
+        print("\n═══════════════════════════════════════")
+        print("         📚 Estructura de Mazos        ")
+        print("═══════════════════════════════════════")
         display_decks(base_path)
 
-        print("\n--- Menú ---")
+        print("\n═══════════════════════════════════════")
+        print("               ┃ Menú ┃                ")
+        print("═══════════════════════════════════════")
         print("1. 📚 Estudiar un mazo")
         print("2. ➕ Añadir tarjeta a un mazo")
         print("3. 🗂️ Añadir un nuevo mazo")
         print("4. 🗑️ Eliminar pregunta de un mazo")
         print("5. ❌ Eliminar un mazo")
-        print("6. 🔙 Volver al menú principal")
+        print("6. 🚪 Salir")
+        print("═══════════════════════════════════════")
 
         choice = input("Selecciona una opción: ")
 
@@ -181,26 +186,6 @@ def navigate_decks(base_path):
             delete_deck(deck_name)
 
         elif choice == "6":
-            break
-
-        else:
-            print("Opción no válida. Por favor, intenta de nuevo.")
-
-def main():
-    while True:
-        os.system('cls' if os.name == 'nt' else 'clear')
-        display_decks('.')
-
-        print("\n--- Menú Principal ---")
-        print("1. 📁 Navegar entre mazos")
-        print("2. ❌ Salir")
-
-        choice = input("Selecciona una opción: ")
-
-        if choice == "1":
-            navigate_decks('.')
-
-        elif choice == "2":
             print("Saliendo...")
             break
 
@@ -208,4 +193,4 @@ def main():
             print("Opción no válida. Por favor, intenta de nuevo.")
 
 if __name__ == "__main__":
-    main()
+    navigate_decks('.')
