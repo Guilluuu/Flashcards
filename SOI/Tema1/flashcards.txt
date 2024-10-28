@@ -1,8 +1,13 @@
-¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. | 4
-¿Cuál es el propósito de la jerarquía de memoria en un sistema operativo? | Permite el manejo eficiente del flujo de información entre memoria caché, RAM y disco, mejorando el rendimiento. | 4
-¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. | 4
-¿Cómo se comunican el hardware y el sistema operativo? | La comunicación se realiza mediante controladoras, usando registros o buffers para ejecutar las operaciones. | 4
-¿Qué diferencia existe entre el modo usuario y el modo núcleo? | El modo usuario limita los privilegios del proceso, mientras que el modo núcleo permite acceso completo a memoria y dispositivos. | 4
-¿Qué es un trap o syscall? | Es una llamada al sistema que permite al usuario solicitar servicios del sistema operativo, cambiando al modo núcleo temporalmente. | 4
-¿Qué es la compartición de tiempo y espacio en un sistema operativo? | La compartición de tiempo asigna tiempo de CPU a cada proceso; la compartición espacial asigna un segmento de memoria a cada proceso. | 4
-¿Qué es el kernel y cuáles son sus principales responsabilidades? | El kernel es la base del sistema operativo encargada de gestionar llamadas al sistema, interrupciones y acceso a memoria y dispositivos. | 4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Cuál es el propósito de la jerarquía de memoria en un sistema operativo? | Permite el manejo eficiente del flujo de información entre memoria caché, RAM y disco, mejorando el rendimiento. |4
+¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4
+¿Cómo se comunican el hardware y el sistema operativo? | La comunicación se realiza mediante controladoras, usando registros o buffers para ejecutar las operaciones. |4
+¿Qué diferencia existe entre el modo usuario y el modo núcleo? | El modo usuario limita los privilegios del proceso, mientras que el modo núcleo permite acceso completo a memoria y dispositivos. |4
+¿Qué es un trap o syscall? | Es una llamada al sistema que permite al usuario solicitar servicios del sistema operativo, cambiando al modo núcleo temporalmente. |4
+¿Qué es la compartición de tiempo y espacio en un sistema operativo? | La compartición de tiempo asigna tiempo de CPU a cada proceso; la compartición espacial asigna un segmento de memoria a cada proceso. |4
+¿Qué es el kernel y cuáles son sus principales responsabilidades? | El kernel es la base del sistema operativo encargada de gestionar llamadas al sistema, interrupciones y acceso a memoria y dispositivos. |4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Qué es un sistema operativo y cuáles son sus funciones principales? | Un sistema operativo es un programa software que administra eficientemente el hardware y provee al programador de recursos abstractos. |4
+¿Qué función cumple la MMU en la administración de memoria? | La MMU ayuda en la gestión de memoria al traducir direcciones virtuales a físicas, facilitando al SO el control de la memoria. |4

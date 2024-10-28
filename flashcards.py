@@ -82,6 +82,7 @@ def quiz(deck):
         deck.add_flashcard(flashcard)
 
         stop_study = input("¿Deseas parar el estudio? (s/n): ").strip().lower()
+        os.system('cls' if os.name == 'nt' else 'clear')  # Limpia la terminal
         if stop_study == 's':
             break
 
